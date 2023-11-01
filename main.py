@@ -32,5 +32,4 @@ if __name__ == "__main__":
         user_input = input("Enter whatever (\"stop\" to exit): ")
         if user_input == "stop":
             break
-
         print(predict(user_input)[0])
